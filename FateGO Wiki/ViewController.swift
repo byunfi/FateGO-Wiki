@@ -7,14 +7,14 @@
 //
 
 import UIKit
+import enum Alamofire.AF
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
+    }
 
 }
 

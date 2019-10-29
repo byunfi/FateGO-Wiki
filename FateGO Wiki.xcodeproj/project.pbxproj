@@ -3,23 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		94E6134B2367D899002F13BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134A2367D899002F13BD /* AppDelegate.swift */; };
-		94E6134D2367D899002F13BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134C2367D899002F13BD /* SceneDelegate.swift */; };
 		94E6134F2367D899002F13BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134E2367D899002F13BD /* ViewController.swift */; };
 		94E613522367D899002F13BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E613502367D899002F13BD /* Main.storyboard */; };
 		94E613552367D899002F13BD /* FateGO_Wiki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94E613532367D899002F13BD /* FateGO_Wiki.xcdatamodeld */; };
 		94E613572367D89C002F13BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E613562367D89C002F13BD /* Assets.xcassets */; };
 		94E6135A2367D89C002F13BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E613582367D89C002F13BD /* LaunchScreen.storyboard */; };
+		94E613632367DE42002F13BD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 94E613622367DE42002F13BD /* Alamofire */; };
+		94E613662367DF49002F13BD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 94E613652367DF49002F13BD /* Kingfisher */; };
+		94E613692367E36F002F13BD /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 94E613682367E36F002F13BD /* GRDB */; };
+		94E6136C2367E3A0002F13BD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 94E6136B2367E3A0002F13BD /* SnapKit */; };
+		94E6136F2367E441002F13BD /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 94E6136E2367E441002F13BD /* RxSwift */; };
+		94E613712367E441002F13BD /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 94E613702367E441002F13BD /* RxCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94E613472367D899002F13BD /* FateGO Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FateGO Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E6134A2367D899002F13BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94E6134C2367D899002F13BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		94E6134E2367D899002F13BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94E613512367D899002F13BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94E613542367D899002F13BD /* FateGO_Wiki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FateGO_Wiki.xcdatamodel; sourceTree = "<group>"; };
@@ -33,6 +37,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E613712367E441002F13BD /* RxCocoa in Frameworks */,
+				94E613692367E36F002F13BD /* GRDB in Frameworks */,
+				94E6136C2367E3A0002F13BD /* SnapKit in Frameworks */,
+				94E6136F2367E441002F13BD /* RxSwift in Frameworks */,
+				94E613662367DF49002F13BD /* Kingfisher in Frameworks */,
+				94E613632367DE42002F13BD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				94E6134A2367D899002F13BD /* AppDelegate.swift */,
-				94E6134C2367D899002F13BD /* SceneDelegate.swift */,
 				94E6134E2367D899002F13BD /* ViewController.swift */,
 				94E613502367D899002F13BD /* Main.storyboard */,
 				94E613562367D89C002F13BD /* Assets.xcassets */,
@@ -86,6 +95,14 @@
 			dependencies = (
 			);
 			name = "FateGO Wiki";
+			packageProductDependencies = (
+				94E613622367DE42002F13BD /* Alamofire */,
+				94E613652367DF49002F13BD /* Kingfisher */,
+				94E613682367E36F002F13BD /* GRDB */,
+				94E6136B2367E3A0002F13BD /* SnapKit */,
+				94E6136E2367E441002F13BD /* RxSwift */,
+				94E613702367E441002F13BD /* RxCocoa */,
+			);
 			productName = "FateGO Wiki";
 			productReference = 94E613472367D899002F13BD /* FateGO Wiki.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +131,13 @@
 				Base,
 			);
 			mainGroup = 94E6133E2367D899002F13BD;
+			packageReferences = (
+				94E613612367DE42002F13BD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				94E613642367DF49002F13BD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				94E613672367E36E002F13BD /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				94E6136A2367E3A0002F13BD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				94E6136D2367E441002F13BD /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 94E613482367D899002F13BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,7 +168,6 @@
 				94E6134F2367D899002F13BD /* ViewController.swift in Sources */,
 				94E613552367D899002F13BD /* FateGO_Wiki.xcdatamodeld in Sources */,
 				94E6134B2367D899002F13BD /* AppDelegate.swift in Sources */,
-				94E6134D2367D899002F13BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z734C7U23P;
 				INFOPLIST_FILE = "FateGO Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z734C7U23P;
 				INFOPLIST_FILE = "FateGO Wiki/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +367,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94E613612367DE42002F13BD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "5.0.0-rc.3";
+			};
+		};
+		94E613642367DF49002F13BD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		94E613672367E36E002F13BD /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		94E6136A2367E3A0002F13BD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		94E6136D2367E441002F13BD /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94E613622367DE42002F13BD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E613612367DE42002F13BD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		94E613652367DF49002F13BD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E613642367DF49002F13BD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		94E613682367E36F002F13BD /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E613672367E36E002F13BD /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+		94E6136B2367E3A0002F13BD /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E6136A2367E3A0002F13BD /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		94E6136E2367E441002F13BD /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E6136D2367E441002F13BD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		94E613702367E441002F13BD /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E6136D2367E441002F13BD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		94E613532367D899002F13BD /* FateGO_Wiki.xcdatamodeld */ = {
