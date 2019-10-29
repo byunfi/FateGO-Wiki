@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94332CB523686C4500AC4242 /* MstSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94332CB423686C4500AC4242 /* MstSkill.swift */; };
+		94332CEB2368767D00AC4242 /* MstSkillDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94332CEA2368767D00AC4242 /* MstSkillDetail.swift */; };
+		94441AC223684CAE00C42213 /* Array+DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94441AC123684CAE00C42213 /* Array+DatabaseValueConvertible.swift */; };
+		94441AC52368553C00C42213 /* StringProtocol+subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94441AC42368553C00C42213 /* StringProtocol+subscript.swift */; };
+		94441AC723685DA100C42213 /* MasterDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94441AC623685DA100C42213 /* MasterDataService.swift */; };
+		944B27B3236A781C007FD48C /* MstSvt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27B2236A781C007FD48C /* MstSvt.swift */; };
+		944B27B5236A806A007FD48C /* MstSvtLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27B4236A806A007FD48C /* MstSvtLimit.swift */; };
+		944B27B7236A8690007FD48C /* MstSkillLv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27B6236A8690007FD48C /* MstSkillLv.swift */; };
+		944B27B9236A86DD007FD48C /* MstSvtSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27B8236A86DD007FD48C /* MstSvtSkill.swift */; };
+		944B27BB236A97AE007FD48C /* MstItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27BA236A97AE007FD48C /* MstItem.swift */; };
+		944B27BE236A9BF5007FD48C /* FGOSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27BD236A9BF5007FD48C /* FGOSkill.swift */; };
+		944B27C0236A9CF1007FD48C /* FGOEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27BF236A9CF1007FD48C /* FGOEffect.swift */; };
+		94B6E705236B1AAA005B73AF /* md.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 94B6E704236B1A8A005B73AF /* md.sqlite */; };
 		94E6134B2367D899002F13BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134A2367D899002F13BD /* AppDelegate.swift */; };
 		94E6134F2367D899002F13BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134E2367D899002F13BD /* ViewController.swift */; };
 		94E613522367D899002F13BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E613502367D899002F13BD /* Main.storyboard */; };
@@ -22,6 +35,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94332CB423686C4500AC4242 /* MstSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MstSkill.swift; sourceTree = "<group>"; };
+		94332CEA2368767D00AC4242 /* MstSkillDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstSkillDetail.swift; sourceTree = "<group>"; };
+		94441AC123684CAE00C42213 /* Array+DatabaseValueConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+DatabaseValueConvertible.swift"; sourceTree = "<group>"; };
+		94441AC42368553C00C42213 /* StringProtocol+subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+subscript.swift"; sourceTree = "<group>"; };
+		94441AC623685DA100C42213 /* MasterDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDataService.swift; sourceTree = "<group>"; };
+		944B27B2236A781C007FD48C /* MstSvt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstSvt.swift; sourceTree = "<group>"; };
+		944B27B4236A806A007FD48C /* MstSvtLimit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstSvtLimit.swift; sourceTree = "<group>"; };
+		944B27B6236A8690007FD48C /* MstSkillLv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstSkillLv.swift; sourceTree = "<group>"; };
+		944B27B8236A86DD007FD48C /* MstSvtSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstSvtSkill.swift; sourceTree = "<group>"; };
+		944B27BA236A97AE007FD48C /* MstItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstItem.swift; sourceTree = "<group>"; };
+		944B27BD236A9BF5007FD48C /* FGOSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOSkill.swift; sourceTree = "<group>"; };
+		944B27BF236A9CF1007FD48C /* FGOEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOEffect.swift; sourceTree = "<group>"; };
+		94B6E704236B1A8A005B73AF /* md.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = md.sqlite; sourceTree = "<group>"; };
 		94E613472367D899002F13BD /* FateGO Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FateGO Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E6134A2367D899002F13BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E6134E2367D899002F13BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +75,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94332CB323686C3600AC4242 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				944B27BA236A97AE007FD48C /* MstItem.swift */,
+				944B27B2236A781C007FD48C /* MstSvt.swift */,
+				944B27B4236A806A007FD48C /* MstSvtLimit.swift */,
+				944B27B8236A86DD007FD48C /* MstSvtSkill.swift */,
+				94332CB423686C4500AC4242 /* MstSkill.swift */,
+				94332CEA2368767D00AC4242 /* MstSkillDetail.swift */,
+				944B27B6236A8690007FD48C /* MstSkillLv.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		94332CEC2368772F00AC4242 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94B6E704236B1A8A005B73AF /* md.sqlite */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94441ABE23684BFE00C42213 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94441ABF23684C1100C42213 /* SQLite */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94441ABF23684C1100C42213 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				944B27BC236A9BB1007FD48C /* Entries */,
+				94332CB323686C3600AC4242 /* Records */,
+				94441AC023684C6700C42213 /* Extensions */,
+				94441AC623685DA100C42213 /* MasterDataService.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		94441AC023684C6700C42213 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94441AC123684CAE00C42213 /* Array+DatabaseValueConvertible.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94441AC32368552500C42213 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				94441AC42368553C00C42213 /* StringProtocol+subscript.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		944B27BC236A9BB1007FD48C /* Entries */ = {
+			isa = PBXGroup;
+			children = (
+				944B27BD236A9BF5007FD48C /* FGOSkill.swift */,
+				944B27BF236A9CF1007FD48C /* FGOEffect.swift */,
+			);
+			path = Entries;
+			sourceTree = "<group>";
+		};
 		94E6133E2367D899002F13BD = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +160,9 @@
 		94E613492367D899002F13BD /* FateGO Wiki */ = {
 			isa = PBXGroup;
 			children = (
+				94332CEC2368772F00AC4242 /* Resources */,
+				94441AC32368552500C42213 /* Utilities */,
+				94441ABE23684BFE00C42213 /* Services */,
 				94E6134A2367D899002F13BD /* AppDelegate.swift */,
 				94E6134E2367D899002F13BD /* ViewController.swift */,
 				94E613502367D899002F13BD /* Main.storyboard */,
@@ -154,6 +249,7 @@
 			files = (
 				94E6135A2367D89C002F13BD /* LaunchScreen.storyboard in Resources */,
 				94E613572367D89C002F13BD /* Assets.xcassets in Resources */,
+				94B6E705236B1AAA005B73AF /* md.sqlite in Resources */,
 				94E613522367D899002F13BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,9 +261,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94441AC223684CAE00C42213 /* Array+DatabaseValueConvertible.swift in Sources */,
+				944B27B7236A8690007FD48C /* MstSkillLv.swift in Sources */,
+				94332CB523686C4500AC4242 /* MstSkill.swift in Sources */,
 				94E6134F2367D899002F13BD /* ViewController.swift in Sources */,
+				944B27BE236A9BF5007FD48C /* FGOSkill.swift in Sources */,
+				944B27C0236A9CF1007FD48C /* FGOEffect.swift in Sources */,
+				944B27B9236A86DD007FD48C /* MstSvtSkill.swift in Sources */,
 				94E613552367D899002F13BD /* FateGO_Wiki.xcdatamodeld in Sources */,
+				944B27B3236A781C007FD48C /* MstSvt.swift in Sources */,
+				94441AC52368553C00C42213 /* StringProtocol+subscript.swift in Sources */,
+				944B27BB236A97AE007FD48C /* MstItem.swift in Sources */,
+				94332CEB2368767D00AC4242 /* MstSkillDetail.swift in Sources */,
 				94E6134B2367D899002F13BD /* AppDelegate.swift in Sources */,
+				944B27B5236A806A007FD48C /* MstSvtLimit.swift in Sources */,
+				94441AC723685DA100C42213 /* MasterDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
