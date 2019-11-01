@@ -1,4 +1,3 @@
-
 //
 //  MstSvtSkill.swift
 //  FateGO Wiki

@@ -14,8 +14,8 @@
             filePath = "FateGO Wiki/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "SkillInfo"
             landmarkType = "21">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "FateGO Wiki/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "SkillInfo"
             landmarkType = "21">
          </BreakpointContent>
@@ -39,49 +39,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1E7171A2-4642-4EE9-9AE6-A777378D2597"
-            shouldBeEnabled = "No"
+            uuid = "8313A86B-CC9B-4845-BE82-D4A98F527926"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FateGO Wiki/ViewController.swift"
+            filePath = "FateGO Wiki/Services/SQLite/MasterDataService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getServants(_:orderings:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1E7171A2-4642-4EE9-9AE6-A777378D2597 - 6b42d04ebb99d742"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (GRDB.Database) -&gt; () in FateGO_Wiki.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "FateGO Wiki"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/Xcode%20Projects/FateGO-Wiki/FateGO%20Wiki/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "288">
-               </Location>
-               <Location
-                  uuid = "1E7171A2-4642-4EE9-9AE6-A777378D2597 - 4e3d9af5f407e9e0"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (GRDB.Row) -&gt; GRDB.Row in closure #1 (GRDB.Database) -&gt; () in FateGO_Wiki.ViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "FateGO Wiki"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/Xcode%20Projects/FateGO-Wiki/FateGO%20Wiki/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DF946D9-D20D-4967-AAB3-5AB08ECB83D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FateGO Wiki/Services/Network/MooncellExtractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "extractMasterMissions(html:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

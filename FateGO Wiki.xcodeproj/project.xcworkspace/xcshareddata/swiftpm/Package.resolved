@@ -20,6 +20,15 @@
         }
       },
       {
+        "package": "Kanna",
+        "repositoryURL": "git@github.com:tid-kijyun/Kanna.git",
+        "state": {
+          "branch": null,
+          "revision": "9b8f73f8c8e145dc496565bbf878a709793e7ba3",
+          "version": "5.0.0"
+        }
+      },
+      {
         "package": "Kingfisher",
         "repositoryURL": "git@github.com:onevcat/Kingfisher.git",
         "state": {

@@ -1,4 +1,3 @@
-
 //
 //  MstSvt.swift
 //  FateGO Wiki

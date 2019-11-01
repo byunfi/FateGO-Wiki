@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94015FEC236C090C005286FC /* MCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94015FEB236C090C005286FC /* MCModel.swift */; };
 		94332CB523686C4500AC4242 /* MstSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94332CB423686C4500AC4242 /* MstSkill.swift */; };
 		94332CEB2368767D00AC4242 /* MstSkillDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94332CEA2368767D00AC4242 /* MstSkillDetail.swift */; };
+		94407F17236BECA500C725DC /* MooncellExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94407F16236BECA400C725DC /* MooncellExtractor.swift */; };
+		94407F1C236BF57400C725DC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94407F1B236BF57400C725DC /* HomeViewModel.swift */; };
+		94407F20236BFB1300C725DC /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94407F1F236BFB1300C725DC /* ViewModelType.swift */; };
+		94407F22236BFBE300C725DC /* MooncellService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94407F21236BFBE300C725DC /* MooncellService.swift */; };
+		94407F24236BFEF500C725DC /* Alamofire+rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94407F23236BFEF500C725DC /* Alamofire+rx.swift */; };
+		94407F27236C058C00C725DC /* Kanna in Frameworks */ = {isa = PBXBuildFile; productRef = 94407F26236C058C00C725DC /* Kanna */; };
 		94441AC223684CAE00C42213 /* Array+DatabaseValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94441AC123684CAE00C42213 /* Array+DatabaseValueConvertible.swift */; };
 		94441AC52368553C00C42213 /* StringProtocol+subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94441AC42368553C00C42213 /* StringProtocol+subscript.swift */; };
 		94441AC723685DA100C42213 /* MasterDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94441AC623685DA100C42213 /* MasterDataService.swift */; };
@@ -19,6 +26,11 @@
 		944B27BB236A97AE007FD48C /* MstItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27BA236A97AE007FD48C /* MstItem.swift */; };
 		944B27BE236A9BF5007FD48C /* FGOSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27BD236A9BF5007FD48C /* FGOSkill.swift */; };
 		944B27C0236A9CF1007FD48C /* FGOEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B27BF236A9CF1007FD48C /* FGOEffect.swift */; };
+		949A7E4E236BC33100BEA96E /* FGOServantLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A7E4D236BC33100BEA96E /* FGOServantLite.swift */; };
+		949A7E50236BCB2700BEA96E /* FGOClassSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A7E4F236BCB2700BEA96E /* FGOClassSkill.swift */; };
+		949A7E53236BCE6000BEA96E /* MstCombineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A7E51236BCE6000BEA96E /* MstCombineLimit.swift */; };
+		949A7E54236BCE6000BEA96E /* MstCombineSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A7E52236BCE6000BEA96E /* MstCombineSkill.swift */; };
+		949A7E56236BD1D400BEA96E /* FGOItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A7E55236BD1D400BEA96E /* FGOItem.swift */; };
 		94B6E705236B1AAA005B73AF /* md.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 94B6E704236B1A8A005B73AF /* md.sqlite */; };
 		94E6134B2367D899002F13BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134A2367D899002F13BD /* AppDelegate.swift */; };
 		94E6134F2367D899002F13BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6134E2367D899002F13BD /* ViewController.swift */; };
@@ -35,8 +47,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94015FEB236C090C005286FC /* MCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCModel.swift; sourceTree = "<group>"; };
 		94332CB423686C4500AC4242 /* MstSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MstSkill.swift; sourceTree = "<group>"; };
 		94332CEA2368767D00AC4242 /* MstSkillDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstSkillDetail.swift; sourceTree = "<group>"; };
+		94407F16236BECA400C725DC /* MooncellExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooncellExtractor.swift; sourceTree = "<group>"; };
+		94407F1B236BF57400C725DC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		94407F1F236BFB1300C725DC /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		94407F21236BFBE300C725DC /* MooncellService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooncellService.swift; sourceTree = "<group>"; };
+		94407F23236BFEF500C725DC /* Alamofire+rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+rx.swift"; sourceTree = "<group>"; };
 		94441AC123684CAE00C42213 /* Array+DatabaseValueConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+DatabaseValueConvertible.swift"; sourceTree = "<group>"; };
 		94441AC42368553C00C42213 /* StringProtocol+subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+subscript.swift"; sourceTree = "<group>"; };
 		94441AC623685DA100C42213 /* MasterDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDataService.swift; sourceTree = "<group>"; };
@@ -47,6 +65,11 @@
 		944B27BA236A97AE007FD48C /* MstItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstItem.swift; sourceTree = "<group>"; };
 		944B27BD236A9BF5007FD48C /* FGOSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOSkill.swift; sourceTree = "<group>"; };
 		944B27BF236A9CF1007FD48C /* FGOEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOEffect.swift; sourceTree = "<group>"; };
+		949A7E4D236BC33100BEA96E /* FGOServantLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOServantLite.swift; sourceTree = "<group>"; };
+		949A7E4F236BCB2700BEA96E /* FGOClassSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOClassSkill.swift; sourceTree = "<group>"; };
+		949A7E51236BCE6000BEA96E /* MstCombineLimit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstCombineLimit.swift; sourceTree = "<group>"; };
+		949A7E52236BCE6000BEA96E /* MstCombineSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MstCombineSkill.swift; sourceTree = "<group>"; };
+		949A7E55236BD1D400BEA96E /* FGOItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGOItem.swift; sourceTree = "<group>"; };
 		94B6E704236B1A8A005B73AF /* md.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = md.sqlite; sourceTree = "<group>"; };
 		94E613472367D899002F13BD /* FateGO Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FateGO Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E6134A2367D899002F13BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +90,7 @@
 				94E613692367E36F002F13BD /* GRDB in Frameworks */,
 				94E6136C2367E3A0002F13BD /* SnapKit in Frameworks */,
 				94E6136F2367E441002F13BD /* RxSwift in Frameworks */,
+				94407F27236C058C00C725DC /* Kanna in Frameworks */,
 				94E613662367DF49002F13BD /* Kingfisher in Frameworks */,
 				94E613632367DE42002F13BD /* Alamofire in Frameworks */,
 			);
@@ -75,10 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94015FEA236C08FC005286FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94015FEB236C090C005286FC /* MCModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		94332CB323686C3600AC4242 /* Records */ = {
 			isa = PBXGroup;
 			children = (
 				944B27BA236A97AE007FD48C /* MstItem.swift */,
+				949A7E51236BCE6000BEA96E /* MstCombineLimit.swift */,
+				949A7E52236BCE6000BEA96E /* MstCombineSkill.swift */,
 				944B27B2236A781C007FD48C /* MstSvt.swift */,
 				944B27B4236A806A007FD48C /* MstSvtLimit.swift */,
 				944B27B8236A86DD007FD48C /* MstSvtSkill.swift */,
@@ -97,9 +131,51 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		94407F15236BEC4900C725DC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				944D0F52236C5EA5000B9B7E /* Mooncell */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		94407F18236BF55500C725DC /* Scences */ = {
+			isa = PBXGroup;
+			children = (
+				94407F1D236BFAB600C725DC /* Base */,
+				94407F19236BF55B00C725DC /* Home */,
+			);
+			path = Scences;
+			sourceTree = "<group>";
+		};
+		94407F19236BF55B00C725DC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94407F1B236BF57400C725DC /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		94407F1D236BFAB600C725DC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				94407F1E236BFAC100C725DC /* Protocols */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		94407F1E236BFAC100C725DC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				94407F1F236BFB1300C725DC /* ViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		94441ABE23684BFE00C42213 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				94407F15236BEC4900C725DC /* Network */,
 				94441ABF23684C1100C42213 /* SQLite */,
 			);
 			path = Services;
@@ -128,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				94441AC42368553C00C42213 /* StringProtocol+subscript.swift */,
+				94407F23236BFEF500C725DC /* Alamofire+rx.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -137,8 +214,21 @@
 			children = (
 				944B27BD236A9BF5007FD48C /* FGOSkill.swift */,
 				944B27BF236A9CF1007FD48C /* FGOEffect.swift */,
+				949A7E4D236BC33100BEA96E /* FGOServantLite.swift */,
+				949A7E4F236BCB2700BEA96E /* FGOClassSkill.swift */,
+				949A7E55236BD1D400BEA96E /* FGOItem.swift */,
 			);
 			path = Entries;
+			sourceTree = "<group>";
+		};
+		944D0F52236C5EA5000B9B7E /* Mooncell */ = {
+			isa = PBXGroup;
+			children = (
+				94015FEA236C08FC005286FC /* Model */,
+				94407F16236BECA400C725DC /* MooncellExtractor.swift */,
+				94407F21236BFBE300C725DC /* MooncellService.swift */,
+			);
+			path = Mooncell;
 			sourceTree = "<group>";
 		};
 		94E6133E2367D899002F13BD = {
@@ -160,6 +250,7 @@
 		94E613492367D899002F13BD /* FateGO Wiki */ = {
 			isa = PBXGroup;
 			children = (
+				94407F18236BF55500C725DC /* Scences */,
 				94332CEC2368772F00AC4242 /* Resources */,
 				94441AC32368552500C42213 /* Utilities */,
 				94441ABE23684BFE00C42213 /* Services */,
@@ -197,6 +288,7 @@
 				94E6136B2367E3A0002F13BD /* SnapKit */,
 				94E6136E2367E441002F13BD /* RxSwift */,
 				94E613702367E441002F13BD /* RxCocoa */,
+				94407F26236C058C00C725DC /* Kanna */,
 			);
 			productName = "FateGO Wiki";
 			productReference = 94E613472367D899002F13BD /* FateGO Wiki.app */;
@@ -232,6 +324,7 @@
 				94E613672367E36E002F13BD /* XCRemoteSwiftPackageReference "GRDB.swift" */,
 				94E6136A2367E3A0002F13BD /* XCRemoteSwiftPackageReference "SnapKit" */,
 				94E6136D2367E441002F13BD /* XCRemoteSwiftPackageReference "RxSwift" */,
+				94407F25236C058C00C725DC /* XCRemoteSwiftPackageReference "Kanna" */,
 			);
 			productRefGroup = 94E613482367D899002F13BD /* Products */;
 			projectDirPath = "";
@@ -262,20 +355,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				94441AC223684CAE00C42213 /* Array+DatabaseValueConvertible.swift in Sources */,
+				94407F1C236BF57400C725DC /* HomeViewModel.swift in Sources */,
 				944B27B7236A8690007FD48C /* MstSkillLv.swift in Sources */,
 				94332CB523686C4500AC4242 /* MstSkill.swift in Sources */,
 				94E6134F2367D899002F13BD /* ViewController.swift in Sources */,
 				944B27BE236A9BF5007FD48C /* FGOSkill.swift in Sources */,
 				944B27C0236A9CF1007FD48C /* FGOEffect.swift in Sources */,
+				949A7E54236BCE6000BEA96E /* MstCombineSkill.swift in Sources */,
+				949A7E53236BCE6000BEA96E /* MstCombineLimit.swift in Sources */,
 				944B27B9236A86DD007FD48C /* MstSvtSkill.swift in Sources */,
+				949A7E50236BCB2700BEA96E /* FGOClassSkill.swift in Sources */,
+				94407F20236BFB1300C725DC /* ViewModelType.swift in Sources */,
 				94E613552367D899002F13BD /* FateGO_Wiki.xcdatamodeld in Sources */,
 				944B27B3236A781C007FD48C /* MstSvt.swift in Sources */,
 				94441AC52368553C00C42213 /* StringProtocol+subscript.swift in Sources */,
 				944B27BB236A97AE007FD48C /* MstItem.swift in Sources */,
 				94332CEB2368767D00AC4242 /* MstSkillDetail.swift in Sources */,
+				94015FEC236C090C005286FC /* MCModel.swift in Sources */,
+				949A7E4E236BC33100BEA96E /* FGOServantLite.swift in Sources */,
+				94407F22236BFBE300C725DC /* MooncellService.swift in Sources */,
 				94E6134B2367D899002F13BD /* AppDelegate.swift in Sources */,
+				94407F17236BECA500C725DC /* MooncellExtractor.swift in Sources */,
 				944B27B5236A806A007FD48C /* MstSvtLimit.swift in Sources */,
 				94441AC723685DA100C42213 /* MasterDataService.swift in Sources */,
+				949A7E56236BD1D400BEA96E /* FGOItem.swift in Sources */,
+				94407F24236BFEF500C725DC /* Alamofire+rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +581,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		94407F25236C058C00C725DC /* XCRemoteSwiftPackageReference "Kanna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:tid-kijyun/Kanna.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		94E613612367DE42002F13BD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
@@ -520,6 +632,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		94407F26236C058C00C725DC /* Kanna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94407F25236C058C00C725DC /* XCRemoteSwiftPackageReference "Kanna" */;
+			productName = Kanna;
+		};
 		94E613622367DE42002F13BD /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 94E613612367DE42002F13BD /* XCRemoteSwiftPackageReference "Alamofire" */;
